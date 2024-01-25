@@ -1,11 +1,17 @@
 import {useState} from 'react'
 import PreviousArrow from './PreviousArrow'
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi2'
+import Window from './Window'
+import NextArrow from './NextArrow'
 
 const Display = () => {
-    const [questionIndex, setQuestionIndex] = useState<number>(1)
+    const [slideIndex, setSlideIndex] = useState<number>(1)
   return (
-    <PreviousArrow questionIndex={questionIndex} />
+    <div>
+      <p>Question Index: {slideIndex}</p>
+      <PreviousArrow slideIndex={slideIndex} setSlideIndex={setSlideIndex} />
+      <Window slideIndex={slideIndex} setSlideIndex={setSlideIndex} />
+      <NextArrow slideIndex={slideIndex} setSlideIndex={setSlideIndex} />
+    </div>
   )
 }
 
