@@ -12,30 +12,30 @@ export const questions: Question[] = [
     {
         description: "Cannon rushes are…",
         answers: [
-            {x: 0, y: 0, name: "Fun to watch, horrible to play against."},
-            {x: 0, y: 0, name: "An abomination."},
-            {x: 0, y: 0, name: "Free MMR machine."},
-            {x: 0, y: 0, name: "For people who can’t macro"}
+            {x: 1, y: 1, name: "Fun to watch, horrible to play against."},
+            {x: 3, y: 2, name: "An abomination."},
+            {x: 2, y: 1, name: "Free MMR machine."},
+            {x: 4, y: 2, name: "For people who can’t macro"}
         ],
         selected: -1
     },
     {
         description: "Turtle mech is…",
         answers: [
-            {x: 0, y: 0, name: "The best way to gain MMR."},
-            {x: 0, y: 0, name: "BORING!"},
-            {x: 0, y: 0, name: "Too slow. Where are my drops?"},
-            {x: 0, y: 0, name: "Fun to dismantle."}
+            {x: 1, y: 2, name: "The best way to gain MMR."},
+            {x: 1, y: 2, name: "BORING!"},
+            {x: 1, y: 2, name: "Too slow. Where are my drops?"},
+            {x: 1, y: 2, name: "Fun to dismantle."}
         ],
         selected: -1
     },
     {
         description: "Queen walks are…",
         answers: [
-            {x: 0, y: 0, name: "A marvel of nature."},
-            {x: 0, y: 0, name: "Too risqué for my taste."},
-            {x: 0, y: 0, name: "Hard to pull off. I always transfuse too late."},
-            {x: 0, y: 0, name: "Bad. Respect the elderly and call a German taxi."}
+            {x: -1, y: 1, name: "A marvel of nature."},
+            {x: -1, y: 1, name: "Too risqué for my taste."},
+            {x: -1, y: 1, name: "Hard to pull off. I always transfuse too late."},
+            {x: -2, y: 1, name: "Bad. Respect the elderly and call a German taxi."}
         ],
         selected: -1
     },
