@@ -9,7 +9,7 @@ interface Props {
     quizLength: number
 }
 const NextArrow: React.FC<Props> = ({slideIndex, setSlideIndex, question, quizLength}) => {
-    if((question && question?.selected > -1) || slideIndex < quizLength){
+    if((question && question?.selected > -1) || (!question && slideIndex < quizLength)){
         return (
             <button onClick={() => setSlideIndex(slideIndex + 1)}>
                 <HiChevronRight />
