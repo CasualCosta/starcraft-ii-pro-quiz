@@ -9,7 +9,7 @@ import Score from './Score'
 const Display = () => {
     const [slideIndex, setSlideIndex] = useState<number>(0)
     return (
-      <div>
+      <div className='bg-sky-800'>
         <SelectedAnswers />
         <Score />
         <p>Question Index: {slideIndex}</p>

@@ -1,8 +1,8 @@
 const PageHeader = () => {
   return (
-    <div>
-      <h1>Starcraft II Pro Quiz</h1>
-      <h2>Find out which Starcraft 2 pro you are in this very accurate quiz!</h2>
+    <div className="bg-sky-950 p-10">
+      <h1 className="text-cyan-200 text-5xl">Starcraft II Pro Quiz</h1>
+      <h2 className="text-cyan-200 text-2xl">Find out which Starcraft 2 pro you are in this very accurate quiz!</h2>
     </div>
   )
 }
