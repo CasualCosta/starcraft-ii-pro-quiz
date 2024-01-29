@@ -16,7 +16,7 @@ const AnswerButton: React.FC<Props> = ({name, questionIndex, setQuestionIndex, a
         question.selected = answerIndex
     }
     return (
-        <button onClick={selectFunction} className='text-blue-800'>{answerIndex}. {name + `${answerIndex === question.selected ? " x" : ""}`}</button>
+        <button onClick={selectFunction} className="text-blue-300 bg-slate-800/70 h-20 p-5">{answerIndex}. {name + `${answerIndex === question.selected ? " x" : ""}`}</button>
     )
 }
 
