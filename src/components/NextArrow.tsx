@@ -11,12 +11,12 @@ interface Props {
 const NextArrow: React.FC<Props> = ({slideIndex, setSlideIndex, question, quizLength}) => {
     if((question && question?.selected > -1) || (!question && slideIndex < quizLength)){
         return (
-            <button className="text-blue-300 bg-slate-800/70 flex flex-col justify-center items-center w-10" onClick={() => setSlideIndex(slideIndex + 1)}>
+            <button className="text-blue-300 bg-slate-800/70 flex flex-col justify-center items-center w-10 hover:bg-slate-800/50" onClick={() => setSlideIndex(slideIndex + 1)}>
                 <HiChevronRight />
             </button>
         )
     }
-return <div className="w-4"></div>
+return <div className="w-10"></div>
 }
 
 export default NextArrow

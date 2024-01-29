@@ -8,11 +8,11 @@ interface Props {
 const PreviousArrow:React.FC<Props> = ({slideIndex: slideIndex, setSlideIndex: setSlideIndex}) => {
     if(slideIndex != 0)
         return (
-            <button className="text-blue-300 bg-slate-800/70 flex flex-col justify-center items-center w-10" onClick={() => setSlideIndex(slideIndex - 1)}>
+            <button className="text-blue-300 bg-slate-800/70 flex flex-col justify-center items-center w-10 hover:bg-slate-800/50" onClick={() => setSlideIndex(slideIndex - 1)}>
                 <HiChevronLeft />
             </button>
         )
-    return <div className="w-4"></div>
+    return <div className="w-10"></div>
 }
 
 export default PreviousArrow

@@ -11,7 +11,9 @@ const QuestionSlide: React.FC<Props> = ({question, setSlideIndex: setSlideIndex,
 
     return (
         <div className="w-10/12 mx-10">
-            <h3 className="text-sky-400 text-2xl h-24 bg-slate-800/70 mb-5">{question.description}</h3>
+            <div className="h-24 mb-5 bg-slate-800/70 rounded">
+                <h3 className="px-8 py-3 text-blue-300 text-2xl">{question.description}</h3>
+            </div>
             <div className='grid grid-cols-2 grid-rows-2 gap-4'>
                 {question.answers.map((answer, index) => {
                     return(
