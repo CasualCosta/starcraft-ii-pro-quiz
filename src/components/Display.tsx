@@ -9,7 +9,7 @@ import { questions } from '../questions'
 const Display = () => {
     const [slideIndex, setSlideIndex] = useState<number>(0)
     return (
-      <div className='bg-sky-800 flex p-6 justify-center'>
+      <div className='bg-sky-800 flex p-6 justify-center rounded-b-lg'>
         {/* <SelectedAnswers />
         <Score /> */}
         {/* <p>Question Index: {slideIndex}</p> */}

@@ -1,4 +1,5 @@
 import { questions } from '../questions'
+import { pros, Pro } from '../pros'
 
 const ResultSlide = () => {
     const result = [0,0]
@@ -10,14 +11,18 @@ const ResultSlide = () => {
         result[0] += answer.x
         result[1] += answer.y
     }
+    
+    const pro = pros[0]
     return (
-        //I still need to figure a way out to make the buttons not over-extend
-        //Change font-color
-        <div className='w-10/12 mx-10 h-64 mb-5 bg-slate-800/70 rounded'>
-            <h3>You ARE</h3>
-            <h2>SERRAL!</h2>
-            <h3>The Overmind</h3>
-            <p>{`Result: ${result}.`}</p>
+        <div className="flex w-10/12 justify-evenly">
+
+            <div className='h-64 bg-slate-800/70 w-5/12 flex flex-col justify-center'><img src={pro.image} className="size-24" /></div>
+            <div className='h-64 bg-slate-800/70 rounded w-5/12 flex flex-col justify-center'>
+                <p className="text-blue-300/40">You are</p>
+                <p className='text-blue-300 text-4xl'>{pro.name.toUpperCase()}!</p>
+                <p className='text-blue-300/90 text-xl'>{pro.title}</p>
+                <p className='text-blue-300'>{`Result: ${result}.`}</p>
+            </div>
         </div>
     )
 }
