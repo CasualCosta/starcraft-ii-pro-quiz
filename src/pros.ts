@@ -13,5 +13,47 @@ export const pros: Pro[] = [
         image: "src/assets/pro_images/hero_marine.png",
         xRange: [-2,1],
         yRange: [1,3]
+    },
+    {
+        name: "Oliveira",
+        title: "A Normal Man",
+        image: "src/assets/pro_images/oliveira.jpg",
+        xRange: [-10,-2],
+        yRange: [1,3]
+    },
+    {
+        name: "Parting",
+        title: "The Big Boi",
+        image: "src/assets/pro_images/parting.png",
+        xRange: [-10, 10],
+        yRange: [-10, 10]
+    },
+    {
+        name: "Reynor",
+        title: "The Italian Stallion",
+        image: "src/assets/pro_images/reynor.png",
+        xRange: [-2,1],
+        yRange: [1,3]
+    },
+    {
+        name: "Serral",
+        title: "The Finnisher",
+        image: "src/assets/pro_images/serral.png",
+        xRange: [-2,1],
+        yRange: [1,3]
+    },
+    {
+        name: "TY",
+        title: "The Chessmaster",
+        image: "src/assets/pro_images/ty.png",
+        xRange: [-2,1],
+        yRange: [1,3]
+    },
+    {
+        name: "Zest",
+        title: "The Wild Card",
+        image: "src/assets/pro_images/zest.png",
+        xRange: [-2,1],
+        yRange: [1,3]
     }
 ]

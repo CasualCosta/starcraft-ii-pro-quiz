@@ -12,12 +12,12 @@ const ResultSlide = () => {
         result[1] += answer.y
     }
     
-    const pro = pros[0]
+    const pro = pros[6]
     return (
         <div className="flex w-10/12 justify-evenly">
 
-            <div className='h-64 bg-slate-800/70 w-5/12 flex flex-col justify-center'><img src={pro.image} className="size-24" /></div>
-            <div className='h-64 bg-slate-800/70 rounded w-5/12 flex flex-col justify-center'>
+            <div className='h-4/6 w-4/12'><img src={pro.image} className="h-46 w-46" /></div>
+            <div className='bg-slate-800/70 rounded w-7/12 flex flex-col justify-center'>
                 <p className="text-blue-300/40">You are</p>
                 <p className='text-blue-300 text-4xl'>{pro.name.toUpperCase()}!</p>
                 <p className='text-blue-300/90 text-xl'>{pro.title}</p>
