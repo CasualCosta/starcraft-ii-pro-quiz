@@ -16,7 +16,7 @@ const AnswerButton: React.FC<Props> = ({name, questionIndex, setQuestionIndex, a
         question.selected = answerIndex
     }
     return (
-        <button onClick={selectFunction} className={`text-blue-300  bg-slate-800/70 h-20 p-5 hover:bg-slate-800/50 ${answerIndex === question.selected ? "rounded border-blue-300 border-dashed border-2" : ""}`}>{answerIndex}. {name}</button>
+        <button onClick={selectFunction} className={`text-blue-300  bg-slate-800/70 h-20 p-5 hover:bg-slate-800/50 rounded ${answerIndex === question.selected ? "border-blue-300 border-dashed border-2" : ""}`}>{answerIndex}. {name}</button>
     )
 }
 

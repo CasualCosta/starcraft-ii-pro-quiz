@@ -1,6 +1,7 @@
 import React, {Dispatch, SetStateAction} from 'react'
 import { Question } from '../questions'
 import AnswerButton from './AnswerButton'
+import ProgressSlider from './ProgressSlider'
 
 interface Props {
     question: Question
@@ -21,6 +22,7 @@ const QuestionSlide: React.FC<Props> = ({question, setSlideIndex: setSlideIndex,
                     )
                 })}
             </div>
+            <ProgressSlider slideIndex={slideIndex} />
         </div>
   )
 }

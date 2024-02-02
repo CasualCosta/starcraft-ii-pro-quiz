@@ -11,7 +11,7 @@ const HookSlide = () => {
   const cards: Card[] = [
     {
       icon: FaXTwitter,
-      message: "More stuff on coming soon",
+      message: "More stuff on coming soon™",
       link: "https://twitter.com/CasualCosta"
     },
     {

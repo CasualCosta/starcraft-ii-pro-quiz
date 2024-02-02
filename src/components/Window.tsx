@@ -3,6 +3,7 @@ import { questions } from '../questions'
 import QuestionSlide from './QuestionSlide'
 import ResultSlide from './ResultSlide'
 import HookSlide from './HookSlide'
+import ProgressSlider from './ProgressSlider'
 
 interface Props {
     slideIndex: number
