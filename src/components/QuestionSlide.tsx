@@ -22,7 +22,7 @@ const QuestionSlide: React.FC<Props> = ({question, setSlideIndex: setSlideIndex,
                     )
                 })}
             </div>
-            <ProgressSlider slideIndex={slideIndex} />
+            {/* <ProgressSlider slideIndex={slideIndex} /> */}
         </div>
   )
 }
