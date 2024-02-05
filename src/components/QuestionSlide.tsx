@@ -1,7 +1,7 @@
 import React, {Dispatch, SetStateAction} from 'react'
 import { Question } from '../questions'
 import AnswerButton from './AnswerButton'
-import ProgressSlider from './ProgressSlider'
+// import ProgressSlider from './ProgressSlider'
 
 interface Props {
     question: Question
